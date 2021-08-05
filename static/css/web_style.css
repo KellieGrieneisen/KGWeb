@@ -14,8 +14,12 @@ img {
 }
 
 #contact {
-    background-color: white;
+    background-color:whitesmoke;
 }
 a{
     font-size: 15pt;
+}
+.col {
+    text-align: center;
+    border: cornflowerblue;
 }
