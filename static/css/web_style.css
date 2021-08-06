@@ -1,6 +1,7 @@
 h1 {
     content: center;
     text-align: center;
+    font-size: 25px;
 }
 
 body {
@@ -22,4 +23,25 @@ a{
 .col {
     text-align: center;
     border: cornflowerblue;
+}
+
+
+#intro {
+    
+    align-content: center;
+    text-align: center;
+    font-size: 50px;
+}
+
+nav {
+    align-tracks: center;
+    text-align: center;
+}
+
+#navigation {
+    color:darkslateblue;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    margin-right: 100px;
+    margin-left: 200px;
 }
