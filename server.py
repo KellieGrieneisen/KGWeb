@@ -11,6 +11,13 @@ def homepage():
 
     return render_template("home.html")
 
+@app.route('/contact')
+def contact_page():
+    """displaying contact info, links and projects."""
+
+    return render_template("contact.html")
+
+
 
 
 if __name__ == '__main__':
