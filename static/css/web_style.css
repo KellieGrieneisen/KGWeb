@@ -5,7 +5,7 @@ h1 {
     margin: 50px auto 0px auto;
 }
 
-body {
+.main body {
     background-image: url('/static/img/scott-webb-OxHPDs4WV8Y-unsplash.jpg');
 
 }
@@ -39,17 +39,42 @@ a{
     margin: 50px auto 0px auto;
 }
 
-nav {
-   
-    background-color: rgb(230, 230, 250,.5%);
-    align-tracks: center;
-    text-align: center;
-}
 
-#navigation {
-    color:darkslateblue;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    text-align: center;
-    margin-right: 100px;
-    margin-left: 200px;
-}
+  /* Fixed sidenav, full height */
+.sidenav {
+    font-family: "Lato", sans-serif;
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+  .sidenav a{
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #818181;
+    display: block;
+    border: none;
+    background: none;
+    width: 100%;
+    text-align: left;
+    cursor: pointer;
+    outline: none;
+  }
+
+ .sidenav a:hover {
+    background-color: rgb(247, 228, 228);
+    color: white;
+  }
+
+  /* Main content */
+.main {
+    margin-left: 200px; /* Same as the width of the sidenav */
+    font-size: 20px; /* Increased text to enable scrolling */
+    padding: 0px 10px;
+  }
